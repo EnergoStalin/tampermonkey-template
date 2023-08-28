@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+    {
+      "type": "npm",
+      "script": "dev",
+      "problemMatcher": [
+        "$tsc-watch"
+      ],
+      "label": "npm: dev",
+      "detail": "rollup -c -w"
+    },
+    {
+      "type": "npm",
+      "script": "lint:fix",
+      "problemMatcher": [
+        "$eslint-stylish"
+      ],
+      "label": "npm: lint:fix",
+      "detail": "eslint --fix src/**/*.ts src/*.ts"
+    }
+  ]
+}
