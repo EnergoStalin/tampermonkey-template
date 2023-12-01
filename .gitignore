@@ -130,7 +130,7 @@ dist
 .pnp.*
 
 # VSCode workspace configuration
-.vscode/
+.vscode/settings.json
 
 # Build output
 build/
