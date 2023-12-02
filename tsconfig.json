@@ -5,7 +5,6 @@
 		"lib": ["ESNext"],
 		"experimentalDecorators": true,
 		"emitDecoratorMetadata": true,
-		"jsx": "react-jsx",
 
 		/* Modules */
 		"module": "ESNext",
