@@ -11,7 +11,7 @@ const metadata = {
 	description: pkg.description,
 	license: pkg.license,
 	version: pkg.version,
-	namespace: new URL(pkg.homepage).host.split(".").reverse().join("."),
+	namespace: "domain backwards",
 	match: pkg.homepage,
 	"run-at": "document-body",
 	connect: [],

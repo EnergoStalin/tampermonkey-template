@@ -4,4 +4,4 @@
 ![release.yml](https://github.com/EnergoStalin/tampermonkey-template/actions/workflows/lint.yaml/badge.svg)
 
 ## Setup
-Just change package.json fields and optionally tweak metadata in `tsup.config.ts`
+Change package.json fields to your linkng and tweak other metadata in `tsup.config.ts`
