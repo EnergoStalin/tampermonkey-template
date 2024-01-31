@@ -5,6 +5,9 @@
   "homepage": "https://example.com",
   "module": "esm",
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "ENVIRONMENT=development tsup --watch",
     "build": "tsup",
