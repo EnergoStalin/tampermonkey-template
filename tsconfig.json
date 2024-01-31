@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		/* Language and Environment */
 		"target": "ESNext",
-		"lib": ["ESNext"],
+		"lib": ["ESNext", "DOM"],
 		"experimentalDecorators": true,
 		"emitDecoratorMetadata": true,
 
@@ -35,6 +35,14 @@
 		"noUncheckedIndexedAccess": true,
 
 		/* Completeness */
-		"skipLibCheck": true
-	}
+		"skipLibCheck": true,
+
+		/* Allow implicit any by default */
+		"noImplicitAny": false
+	},
+	"include": [
+		"src/*.ts",
+		"src/**/*.ts",
+		"*.ts",
+	]
 }
