@@ -12,7 +12,7 @@ const metadata = {
 	license: pkg.license,
 	version: pkg.version,
 	namespace: new URL(pkg.homepage).host.split(".").reverse().join("."),
-	match: `${pkg.homepage}/*`,
+	match: pkg.homepage,
 	"run-at": "document-body",
 	connect: [],
 	grant: [],
