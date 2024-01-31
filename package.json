@@ -2,7 +2,7 @@
   "name": "name",
   "version": "0.0.0",
   "description": "description",
-  "homepage": "",
+  "homepage": "https://example.com",
   "module": "esm",
   "type": "module",
   "scripts": {
