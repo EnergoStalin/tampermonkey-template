@@ -22,7 +22,7 @@ const metadata = {
 export default defineConfig({
 	entry: ["src/index.ts"],
 	format: "iife",
-	target: "node20",
+	target: "es6",
 	bundle: true,
 	outDir: "build",
 	minify: !dev,
