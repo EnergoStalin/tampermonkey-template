@@ -1,6 +1,6 @@
 {
   "name": "name",
-  "version": "0.0.0",
+  "version": "v0.0.0",
   "description": "description",
   "homepage": "https://example.com",
   "module": "esm",
