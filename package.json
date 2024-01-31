@@ -2,7 +2,7 @@
   "name": "name",
   "version": "0.0.0",
   "description": "description",
-  "homepage": "https://edu.21-school.ru",
+  "homepage": "",
   "module": "esm",
   "type": "module",
   "scripts": {
