@@ -38,7 +38,7 @@ export default defineConfig({
 						port: 8080,
 						metadata,
 						targets: () => true,
-				  }
+					}
 				: undefined,
 		}),
 	],
