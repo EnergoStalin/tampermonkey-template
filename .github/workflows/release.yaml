@@ -28,6 +28,7 @@ jobs:
         with:
           name: userscript
           path: build/index.user.js
+          if-no-files-found: error
 
   release:
     needs: build
