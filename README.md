@@ -4,5 +4,4 @@
 ![release.yml](https://github.com/EnergoStalin/tampermonkey-template/actions/workflows/lint.yaml/badge.svg)
 
 ## Setup
-1. Change meta.js icon and include
-2. Change package.json fields
+Just change package.json fields and optionally tweak metadata in `tsup.config.ts`
