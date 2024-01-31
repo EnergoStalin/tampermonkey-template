@@ -14,7 +14,8 @@
     "serve": "http-server build -c 1 -o",
     "lint": "eslint src/**/*.ts src/*.ts",
     "lint:fix": "eslint --fix src/**/*.ts src/*.ts",
-    "release": "npm version -m 'chore(release): %s' --"
+    "release": "npm version -m 'chore(release): %s' --",
+    "postversion": "git push & git push --tags"
   },
   "keywords": [],
   "repository": {
